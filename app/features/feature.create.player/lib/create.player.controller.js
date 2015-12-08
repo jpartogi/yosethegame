@@ -5,7 +5,7 @@ CreatePlayerController = function($) {
     this.page = $;
     this.regex = /^[A-z|\.|\-|@|0-9]+$/;
     this.form = this.page('#create-player-form');
-}
+};
 
 CreatePlayerController.prototype.isLoginCorrect = function() {
     return (this.regex).test(this.page('#login').val());
