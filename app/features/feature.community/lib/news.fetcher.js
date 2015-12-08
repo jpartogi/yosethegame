@@ -3,7 +3,7 @@ var selfFetcher;
 NewsFetcher = function($) {
     selfFetcher = this;
     this.page = $;
-}
+};
 
 NewsFetcher.prototype.useRenderer = function(renderer) {
     this.renderer = renderer;

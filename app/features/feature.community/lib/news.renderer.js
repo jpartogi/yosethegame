@@ -2,7 +2,7 @@ var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oc
 
 NewsRenderer = function($) {
     this.page = $;
-}
+};
 
 NewsRenderer.prototype.getCurrentTime = function(date) {
     return new Date().getTime();
